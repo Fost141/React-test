@@ -42,3 +42,19 @@ a {
 .site_name {
     color: aqua;
 }
+
+.galary_content {
+    margin-top: 20px;
+}
+
+.galary_content p {
+    font-size: 21px;
+    color: azure;
+}
+
+.galary_content img {
+    max-width: 600px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
