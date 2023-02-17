@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(72, 61, 139, 0.7);
+    height: 100vh;
+}
+
+.container {
+    max-width: 1267px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: azure;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.nav a:hover {
+    color: rgb(240, 255, 255, 0.6);
+    transition: all 0.5s ease;
+}
+
+.site_name {
+    color: aqua;
+}
