@@ -1,3 +1,14 @@
+// В index.js импортируем библиотеки/модули, подключаем(импортируем) новые страницы 
+
+// Маршрутизация проекта !(Установить npm i react-router-dom) 6 Версия используется
+//<BrowserRouter>
+//    <Routes>
+//      <Route path='/' element={<App/>}/> Ниже пойдет добавление новых страниц
+//      <Route path='/about' element={<About/>}/>
+//      <Route path='/blog' element={<Blog/>}/>
+//    </Routes>
+//</BrowserRouter>
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
